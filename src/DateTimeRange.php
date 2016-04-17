@@ -4,6 +4,9 @@
  * This file is part of the Carbon package.
  *
  * (c) Yury Apsitis <yury.apsitis.dev@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
 namespace DateTimeRange;
@@ -12,9 +15,7 @@ use DateTime;
 
 class DateTimeRange {
     
-    /** @var \DateTime beginning of range */
     protected $range_starts = null;
-    /** @var \DateTime end of range */
     protected $range_ends   = null;
     
     /**
