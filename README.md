@@ -35,9 +35,9 @@ $is_in_range_including_both = $range->isInRangeIncBoth($dt_to_check);
 ```php
 use Daffox\DateTimeRange\DateTimeRange;
 
-$dt_range_start = new DateTime('2016-04-19');
-$dt_range_end   = new DateTime('2016-04-25');
-$dt_to_check    = new DateTime('2016-04-20');
+$dt_range_start = new DateTime('2016-04-19 10:00');
+$dt_range_end   = new DateTime('2016-04-25 17:00');
+$dt_to_check    = new DateTime('2016-04-25 16:30');
 
 $range = DateTimeRange::create($dt_range_start, $dt_range_end);
 
