@@ -1,14 +1,24 @@
 {
     "name": "daffox/datetimerange",
+    "type": "library",
     "description": "Simple class that allows you two create range between two PHP \\DateTime objects",
     "require": {
-        "php": ">=5.3"
+        "php": ">=5.3.0"
     },
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/daffox/DateTimeRange/issues",
+        "source": "https://github.com/daffox/DateTimeRange"
+    },
     "authors": [
         {
             "name": "Yury Apsitis",
             "email": "yury.apsitis.dev@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+          "DateTimeRange\\": "src/"
+        }
+    },
 }
