@@ -18,7 +18,7 @@
     ],
     "autoload": {
         "psr-4": {
-          "DateTimeRange\\": "src/"
+          "Daffox\\DateTimeRange\\": "src/"
         }
     }
 }

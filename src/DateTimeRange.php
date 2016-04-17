@@ -1,12 +1,12 @@
 <?php
 
-/**
+/*
  * This file is part of the Carbon package.
  *
  * (c) Yury Apsitis <yury.apsitis.dev@gmail.com>
  */
 
-namespace DateTimeRange;
+namespace Daffox\DateTimeRange;
 
 use DateTime;
 
