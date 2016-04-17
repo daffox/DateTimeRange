@@ -1,7 +1,8 @@
 {
-  "name": "daffox/DateTimeRange",
+  "name": "daffox/datetimerange",
   "type": "library",
   "description": "PHP Class that works with native PHP DateTime class. Includes range between two DateTime objects.",
+  "license": "MIT",
   "keywords": [
     "date",
     "time",
@@ -12,7 +13,6 @@
     "issues": "https://github.com/daffox/DateTimeRange/issues",
     "source": "https://github.com/daffox/DateTimeRange"
   },
-  "license": "MIT",
   "authors": [
     {
       "name": "Yury Apsitis",
