@@ -6,7 +6,7 @@ PHP Class that works with native PHP DateTime class. Includes range between two 
 
 ```php
 use Carbon\Carbon;
-use daffox\DateTimeRange;
+use DateTimeRange\DateTimeRange;
 
 $dt_range_start = Carbon::create(2016, 4, 19);
 $dt_range_end   = Carbon::create(2016, 4, 25);
@@ -27,7 +27,7 @@ $is_in_range_including_both   = $range->isInRangeIncBoth($dt_to_check);
 ## Example usage with native php \DateTime class
 
 ```php
-use daffox\DateTimeRange;
+use DateTimeRange\DateTimeRange;
 
 $dt_range_start = new DateTime('2016-04-19');
 $dt_range_end   = new DateTime('2016-04-25');
