@@ -11,6 +11,7 @@
 
 namespace DateTimeRange;
 
+use DateTime;
 
 class DateTimeRange {
     
