@@ -1,4 +1,7 @@
 # DateTimeRange
+
+[![Latest Stable Version](https://poser.pugx.org/daffox/datetimerange/v/stable)](https://packagist.org/packages/daffox/datetimerange) [![Total Downloads](https://poser.pugx.org/daffox/datetimerange/downloads)](https://packagist.org/packages/daffox/datetimerange) [![Latest Unstable Version](https://poser.pugx.org/daffox/datetimerange/v/unstable)](https://packagist.org/packages/daffox/datetimerange) [![License](https://poser.pugx.org/daffox/datetimerange/license)](https://packagist.org/packages/daffox/datetimerange)
+
 PHP Class that works with native PHP DateTime class. Includes range between two DateTime objects.
 
 # Usage examples
