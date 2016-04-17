@@ -24,7 +24,7 @@
   },
   "autoload": {
     "psr-4": {
-      "daffox\\": "src/"
+      "daffox\\DateTimeRange\\": "src"
     }
   }
 }
